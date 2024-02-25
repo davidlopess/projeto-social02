@@ -10,6 +10,7 @@ body{
     background: url(../imagens/fundo-madeira.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 main{
@@ -47,8 +48,8 @@ main{
 .redes-sociais{
     display: flex;
    flex-direction: column;
-   margin-left: 80%;
-   padding-top: 14%;
+   margin-left: 75%;
+   padding-top: 9%;
     
 }
 #prime{
@@ -65,7 +66,7 @@ main{
 
 
  .redes-sociais img{
-    width: 70px;
+    width: 95px;
     border-radius: 50%;
     padding: 5px;
  }
@@ -83,15 +84,15 @@ main{
 
  .redes-sociais img:hover{
     border: none;
-    width: 75px;
+    width: 97px;
  }
 
 @media  (max-width: 620px) {
 
-    /* .telefone{
+     /* .telefone{
         height: 100%;
         background-size: 90%;
-    } */
+    }  */
 
     body{
        background-size: cover;
@@ -113,7 +114,7 @@ main{
     }
     .redes-sociais{
         margin-left: 80%;    
-        padding-top: 22%;
+        padding-top: 40%;
     }
     
     .redes-sociais img{
