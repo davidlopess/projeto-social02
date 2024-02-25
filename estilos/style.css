@@ -16,6 +16,7 @@ main{
     width: 100vw;
     height: 100vh;
     position: relative;
+    
 }
 
 .telefone{
@@ -44,14 +45,22 @@ main{
 
 
 .redes-sociais{
-   display: flex;
+    display: flex;
    flex-direction: column;
-   text-align: right;
-   padding-top: 50px;
-   
-   margin-left: 90%;  
-  
-} 
+   margin-left: 80%;
+   padding-top: 60px;
+    
+}
+#prime{
+    display: flex;
+    flex-direction: column;
+}
+#segund{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 
